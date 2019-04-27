@@ -1,0 +1,762 @@
+# Reading C:/modeltech64_10.0c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.0c Jul 21 2011 
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort.mpf 
+# Loading project Bubble_Sort
+#  
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/word_size \
+sim:/Bubble_Sort_Alternative_tb/rst \
+sim:/Bubble_Sort_Alternative_tb/clk \
+sim:/Bubble_Sort_Alternative_tb/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Sort \
+sim:/Bubble_Sort_Alternative_tb/Send \
+sim:/Bubble_Sort_Alternative_tb/Ready \
+sim:/Bubble_Sort_Alternative_tb/Load \
+sim:/Bubble_Sort_Alternative_tb/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Busy
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Control".
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/word_size \
+sim:/Bubble_Sort_Alternative_tb/rst \
+sim:/Bubble_Sort_Alternative_tb/clk \
+sim:/Bubble_Sort_Alternative_tb/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Sort \
+sim:/Bubble_Sort_Alternative_tb/Send \
+sim:/Bubble_Sort_Alternative_tb/Ready \
+sim:/Bubble_Sort_Alternative_tb/Load \
+sim:/Bubble_Sort_Alternative_tb/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Control".
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/j
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "Control".
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run
+# Break key hit 
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_wait \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_prep \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_init \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_idle \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Busy
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_wait \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_prep \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_init \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_idle \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_wait \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_prep \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_init \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_idle \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/next_state \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_wait \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_prep \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_init \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/S_idle \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Control_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/k
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+run -all
+# Compile of Bubble_Sort_Alternative.v was successful.
+# Compile of Control.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of Bubble_Sort_Alternative_tb.v was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb
+# vsim -voptargs=+acc work.Bubble_Sort_Alternative_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/word_size \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/swap \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/snd \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/set_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/rst \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/ld \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/j_gte_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/incr_i \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/i_lte_N \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/gt \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/done \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/decr_j \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clr_k \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/clk \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Waiting \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Sort \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Send \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Ready \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Load \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_out \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Data_in \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Busy
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/A
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/Data_in
+run -all
+add wave  \
+sim:/Bubble_Sort_Alternative_tb/Bubble_Sort_Alternative_inst/Datapath_inst/k
+restart
+# Loading work.Bubble_Sort_Alternative_tb(fast)
+# Loading work.Bubble_Sort_Alternative(fast)
+# Loading work.Control(fast)
+# Loading work.Datapath(fast)
+run -all
+# Causality operation skipped due to absense of debug database file
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom

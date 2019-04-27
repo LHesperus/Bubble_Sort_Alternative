@@ -1,0 +1,185 @@
+Quartus II 64-Bit
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Full Version
+15
+1175
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Bubble_Sort_Alternative
+# storage
+db|Bubble_Sort_Alternative.(0).cnf
+db|Bubble_Sort_Alternative.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+bubble_sort_alternative.v
+1f70bb6481d1978ae6e386d9353c137
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+word_size
+4
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Control
+# storage
+db|Bubble_Sort_Alternative.(1).cnf
+db|Bubble_Sort_Alternative.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+control.v
+eb613e4045126baff8d744dfb361925
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+state_N
+3
+PARAMETER_SIGNED_DEC
+DEF
+S_rst
+0
+PARAMETER_SIGNED_DEC
+DEF
+S_init
+1
+PARAMETER_SIGNED_DEC
+DEF
+S_idle
+2
+PARAMETER_SIGNED_DEC
+DEF
+S_load
+3
+PARAMETER_SIGNED_DEC
+DEF
+S_prep
+4
+PARAMETER_SIGNED_DEC
+DEF
+S_sort
+5
+PARAMETER_SIGNED_DEC
+DEF
+S_wait
+6
+PARAMETER_SIGNED_DEC
+DEF
+S_send
+7
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+Control:Control_inst
+}
+# macro_sequence
+
+# end
+# entity
+Datapath
+# storage
+db|Bubble_Sort_Alternative.(2).cnf
+db|Bubble_Sort_Alternative.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+datapath.v
+2c17a8d3cfa85e8420f74624ad23fd30
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# user_parameter {
+word_size
+4
+PARAMETER_SIGNED_DEC
+DEF
+N
+8
+PARAMETER_SIGNED_DEC
+DEF
+}
+# hierarchies {
+Datapath:Datapath_inst
+}
+# macro_sequence
+
+# end
+# complete
+

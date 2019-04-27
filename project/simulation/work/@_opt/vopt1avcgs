@@ -1,0 +1,89 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech64_10.0c\examples
+T_opt
+Z1 V1Dl<F:kTfPdZgU3V:0nKH2
+Z2 04 26 4 work Bubble_Sort_Alternative_tb fast 0
+Z3 =1-3c970e1f2f2d-5cc477e8-293-22c0
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OL;O;10.0c;49
+Z7 dC:\modeltech64_10.0c\examples
+vBubble_Sort_Alternative
+Z8 I44cT7N^]<9k;HQ<5ma<073
+Z9 Vfc>W[mYOC1oSPYE9k;WDR1
+Z10 dC:\Users\LCG\Desktop\FPGA\simulation
+Z11 w1556214206
+Z12 8C:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v
+Z13 FC:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v
+L0 1
+Z14 OL;L;10.0c;49
+r1
+31
+Z15 !s102 -nocovercells
+Z16 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z17 n@bubble_@sort_@alternative
+Z18 !s100 6D0ZA4W18f;US__LQ286;1
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v|
+Z20 !s108 1556214320.185000
+Z21 !s107 C:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v|
+!s85 0
+vBubble_Sort_Alternative_tb
+Z22 I9UNafgCJ0kH8SSkXeVo5[1
+Z23 VgP3HOeg0h8n;kD>]7]NiP0
+R10
+Z24 w1556379608
+Z25 8C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v
+Z26 FC:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v
+L0 1
+R14
+r1
+31
+Z27 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v|
+R15
+R16
+Z28 n@bubble_@sort_@alternative_tb
+Z29 !s107 C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v|
+Z30 !s100 LNKH1dA;oPHFcSmP84KQ_3
+!s85 0
+Z31 !s108 1556379618.396000
+vControl
+Z32 IWgFWm5_lm;zEJ;gjV6leJ3
+Z33 V_8:Cj`UhPMcl;8`kAdi8K2
+R10
+Z34 w1556295660
+Z35 8C:/Users/LCG/Desktop/FPGA/Control.v
+Z36 FC:/Users/LCG/Desktop/FPGA/Control.v
+L0 1
+R14
+r1
+31
+Z37 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/LCG/Desktop/FPGA/Control.v|
+R15
+R16
+Z38 n@control
+Z39 !s107 C:/Users/LCG/Desktop/FPGA/Control.v|
+Z40 !s100 g:kReV0PAlbkJJcJRhIJY3
+Z41 !s108 1556295669.655000
+!s85 0
+vDatapath
+Z42 IGzf;E4gH>YLJQ<T=PoA>k3
+Z43 VzYHC`eCMK^]]bz?2<Y;H62
+R10
+Z44 w1556379439
+Z45 8C:/Users/LCG/Desktop/FPGA/Datapath.v
+Z46 FC:/Users/LCG/Desktop/FPGA/Datapath.v
+L0 1
+R14
+r1
+31
+Z47 !s90 -reportprogress|300|-work|work|-vopt|-nocovercells|C:/Users/LCG/Desktop/FPGA/Datapath.v|
+R15
+R16
+Z48 n@datapath
+Z49 !s107 C:/Users/LCG/Desktop/FPGA/Datapath.v|
+Z50 !s100 b?Vk_XVLYGh`G8RWizZS_2
+Z51 !s108 1556379481.440000
+!s85 0

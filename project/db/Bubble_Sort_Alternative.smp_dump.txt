@@ -1,0 +1,11 @@
+
+State Machine - |Bubble_Sort_Alternative|Control:Control_inst|state
+Name state.S_send state.S_wait state.S_sort state.S_prep state.S_load state.S_idle state.S_init state.S_rst 
+state.S_rst 0 0 0 0 0 0 0 0 
+state.S_init 0 0 0 0 0 0 1 1 
+state.S_idle 0 0 0 0 0 1 0 1 
+state.S_load 0 0 0 0 1 0 0 1 
+state.S_prep 0 0 0 1 0 0 0 1 
+state.S_sort 0 0 1 0 0 0 0 1 
+state.S_wait 0 1 0 0 0 0 0 1 
+state.S_send 1 0 0 0 0 0 0 1 

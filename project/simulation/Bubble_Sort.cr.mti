@@ -1,0 +1,29 @@
+C:/Users/LCG/Desktop/FPGA/Control.v {1 {vlog -work work -vopt -nocovercells C:/Users/LCG/Desktop/FPGA/Control.v
+Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} C:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v {1 {vlog -work work -vopt -nocovercells C:/Users/LCG/Desktop/FPGA/Bubble_Sort_Alternative.v
+Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module Bubble_Sort_Alternative
+
+Top level modules:
+	Bubble_Sort_Alternative
+
+} {} {}} C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v {1 {vlog -work work -vopt -nocovercells C:/Users/LCG/Desktop/FPGA/simulation/Bubble_Sort_Alternative_tb.v
+Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module Bubble_Sort_Alternative_tb
+
+Top level modules:
+	Bubble_Sort_Alternative_tb
+
+} {} {}} C:/Users/LCG/Desktop/FPGA/Datapath.v {1 {vlog -work work -vopt -nocovercells C:/Users/LCG/Desktop/FPGA/Datapath.v
+Model Technology ModelSim SE-64 vlog 10.0c Compiler 2011.07 Jul 21 2011
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}}
